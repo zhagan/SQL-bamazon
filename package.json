@@ -1,0 +1,25 @@
+{
+  "name": "sql-inventory-app",
+  "version": "1.0.0",
+  "description": "Allow customers to view and transact from a database of products containing real-time inventory data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NA-Dev/SQL-Inventory-App.git"
+  },
+  "author": "Nikki Aaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NA-Dev/SQL-Inventory-App/issues"
+  },
+  "homepage": "https://github.com/NA-Dev/SQL-Inventory-App#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "json-table": "^0.1.3",
+    "mysql": "^2.15.0",
+    "table": "^4.0.2"
+  }
+}
