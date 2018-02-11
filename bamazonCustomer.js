@@ -8,7 +8,6 @@ getCredentials();
 
 // prompts user for localhost credentials instead
 // of saving in this file and revealing passwords
-
 function getCredentials() {
 
 	inquirer.prompt([
@@ -67,6 +66,7 @@ function getCredentials() {
 // checks to see if database already exists
 
 function checkIfDB() {
+	
 	connection.query(
 		'SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = "bamazon"',
 

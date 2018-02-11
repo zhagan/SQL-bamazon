@@ -19,9 +19,7 @@ function getCredentials() {
 
         if(isValid) {
 					return true;
-        }
-
-        else {
+        } else {
 					return 'Invalid input. Enter an integer port number.';
 				}
 			}
