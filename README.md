@@ -1,7 +1,6 @@
 # SQL-Inventory-App
 
 -- A Node.js application for manupilating a mySQL product inventory database
-A demo video is located [here](https://youtu.be/GUq-9Y3aKok).
 
 --Installation
 - Using your terminal, navigate to the directory containing those files
